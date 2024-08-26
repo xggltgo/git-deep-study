@@ -15,7 +15,7 @@ fi
 commit_message="$*"
 
 # 合并模板内容和提交信息
-combined_message=$(printf "%s\n\n%s" "$template" "$commit_message")
+combined_message=$(printf "%s\n" "$template" "$commit_message")
 
 # 输出合并后的消息用于调试
 echo "Combined commit message:"

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 提交模板文件
-TEMPLATE_FILE="git-commit-template.txt"
+TEMPLATE_FILE="git-commit-tempalte.txt"
 
 # 读取模板内容
 if [ -f "$TEMPLATE_FILE" ]; then
